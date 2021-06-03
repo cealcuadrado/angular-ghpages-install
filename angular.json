@@ -120,6 +120,10 @@
               "devServerTarget": "ghpages-install:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
